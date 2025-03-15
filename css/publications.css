@@ -27,6 +27,7 @@ body{
 }
 .title-with-logo {
     display: flex;
+    flex-wrap:wrap;
     align-items: center;
     gap: 10px;
     margin-bottom: 15px;
