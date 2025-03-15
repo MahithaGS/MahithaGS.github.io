@@ -1,0 +1,82 @@
+body{
+    background-color: #410101;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 100px 20px 20px;
+}
+
+.box {
+    flex: 1;  /* Each box takes equal width */
+    background-color: hsl(0, 11%, 71%);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box1 {
+    background-color:hsl(0, 11%, 71%); /* Green */
+    color: #410101;
+}
+
+.box2 {
+    background-color:hsl(0, 11%, 71%); /* Blue */
+    color: #410101;
+}
+.title-with-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.publication-logo {
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    opacity: 0.8; /* Adjust transparency level */
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    border: 2px solid #410101;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #410101;
+    margin: 0;
+}
+
+.publication-image {
+    display: block;         /* Ensures the image behaves like a block element */
+    margin: 0 auto;         /* Centers the image horizontally */
+    border: 2px solid #410101; /* Optional border for emphasis */
+    border-radius: 10px;    /* Smooth, rounded corners */
+    width: 300px;            /* Ensures responsiveness */
+    height:300px;
+}
+.publication-image2 {
+    display: block;         /* Ensures the image behaves like a block element */
+    margin: 0 auto;         /* Centers the image horizontally */
+    border: 2px solid #410101; /* Optional border for emphasis */
+    border-radius: 10px;    /* Smooth, rounded corners */
+    width: 400px;            /* Ensures responsiveness */
+    height:300px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.publication-link {
+    display: inline-block;
+    color: #d90429;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #410101;
+    color: #fff;
+    border-radius: 5px;
+}
