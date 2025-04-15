@@ -72,3 +72,13 @@ body{
 .btn:hover {
     background-color: #600101;
 }
+.container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .box {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
