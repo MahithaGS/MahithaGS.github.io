@@ -147,3 +147,51 @@
 body{
     background-color: hsl(0, 11%, 71%);
 }
+@media (max-width: 768px) {
+
+  /* NAVIGATION */
+  .topnav a {
+    display: block;
+    float: none;
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .topnav-right {
+    float: none;
+    text-align: left;
+  }
+
+  #home {
+    flex-direction: column;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #profile-pic img {
+    width: 200px;
+    height: 200px;
+    transform: none;
+    margin: 20px auto;
+  }
+
+  #homeh1 {
+    transform: none;
+  }
+
+  #about h2 {
+    font-size: 2rem;
+  }
+
+  #about p {
+    font-size: 1.2rem;
+    max-width: 90%;
+  }
+
+  #contact {
+    font-size: 1.5rem;
+    padding: 20px;
+    height: auto;
+  }
