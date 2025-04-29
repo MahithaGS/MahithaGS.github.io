@@ -4,57 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="css/homestyle.css">
+    <link rel="stylesheet" href="homestyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 <body>
     <div class="topnav">
-        <a href="#name" class="no-underline" >Mahitha G S</a>
-        <a href = "#home">Home</a>
-        <a href="#about">About Me</a>
-        <a href = "#contact">Contact</a>
+        <a href="#name" class="no-underline">Mahitha G S</a>
+        <a href="about.html">About Me</a>
         <a href="publications.html">Publications</a>
         <a href="projects.html">Projects</a>
         <div class="topnav-right">
             <a href="https://github.com/MahithaGS" class="nav-item">
-                <img src="image/th-removebg-preview.png" alt="github"> 
+                <img src="th-removebg-preview.png" alt="github"> 
             </a>
             <a href="https://www.linkedin.com/in/mahitha-gs-541396259" class="nav-item">
-                <img src="image/linkedin.png" alt="linkedin"> 
+                <img src="linkedin.png" alt="linkedin"> 
             </a>
-            <a href="pdf/GSMAHITHA_resume.pdf" target="_blank" >CV</a>
-          
-        </a>
+            <a href="GSMAHITHA_resume.pdf" download>CV</a>
         </div>
-      </div>
+    </div>
 
-      <div id="home">
+    <div id="home">
         <h1 id="homeh1">
             Hi, I am Mahitha 
             <br>
-            <span id="homeTagline">
-                Aspiring ML Engineer | Tech Enthusiast
-            </span>
+            <span id="homeTagline"></span>
         </h1>
         <div id="profile-pic">
-            <img src="image/mypic.jpg" alt="Mahitha's Picture">
-        </div>
-    </div>
-    
-
-    <div class="content">
-        <div id="about">
-            <h2>About me</h2>
-            <p>Hi, I'm Mahitha, a Computer Science student passionate about coding, AI, and building impactful solutions. With skills in Python, JavaScript, and frameworks like TensorFlow and PyTorch, I enjoy exploring machine learning, web development with Flask and React.js, and working with databases such as MySQL and MongoDB. Iam also ACM Council member and winner of the OtakuCanvas Gen AI competition, I actively participate in tech events and projects. I'm certified in Python, Oracle DBMS, and NPTEL, and I have contributed to research with publications that reflect my dedication to learning and innovation. When I'm not coding, you'll find me binge-watching anime or exploring creative design ideas.</p>
+            <img src="mypic.jpg" alt="Mahitha's Picture">
         </div>
     </div>
 
-    <div id="contact">
-        <p id="connect">Let's connect!</p>
-    
-    <div class="contact-info">
-        <p><strong>Email:</strong> <a href="mailto:mahithags.23@gmail.com">mahithags.23@gmail.com</a></p>
-        <p><strong>Location:</strong> Hyderabad, India</p>
-    </div>
-    </div>
+    <button id="scrollTopBtn">↑</button>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="main.js"></script>
 </body>
 </html>
