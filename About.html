@@ -1,0 +1,197 @@
+<!-- ✅ NEW about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Mahitha</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+    <div class="topnav">
+        <a href="home.html" class="no-underline">Mahitha G S</a>
+        <a href="home.html">Home</a>
+        
+        <a href="publications.html">Publications</a>
+        <a href="projects.html">Projects</a>
+        <div class="topnav-right">
+            <a href="https://github.com/MahithaGS" class="nav-item">
+                <img src="th-removebg-preview.png" alt="github"> 
+            </a>
+            <a href="https://www.linkedin.com/in/mahitha-gs-541396259" class="nav-item">
+                <img src="linkedin.png" alt="linkedin"> 
+            </a>
+            <a href="GSMAHITHA_resume.pdf" download>CV</a>
+        </div>
+    </div>
+    <div class="about-section" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p data-aos="fade-up" data-aos-delay="100">
+          I'm Mahitha — passionate about ML, AI, and building intelligent systems. I also love anime and exploring UI design!
+        </p>
+        <video width="100%" controls poster="visume-thumbnail.jpg">
+            <source src="visume.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          
+      </div>
+      <!-- Section 2: Education - Map & Pins -->
+  <div class="education-map" data-aos="fade-right">
+    <h2>My Education Map</h2>
+    <div class="campus-map">
+      <!-- SVG Dotted Line -->
+<svg viewBox="0 0 600 300" class="dotted-path">
+
+
+  <style>
+    .pin-label {
+      fill: white;
+      font-size: 14px;
+      text-anchor: middle;
+      font-family: sans-serif;
+    }
+  </style>
+  <path class="dashed-path" d="M20,150 C100,100 150,50 200,150 C250,250 300,50 350,150 C400,250 500,200 580,220" />
+
+  <!-- First Pin -->
+<image class="map-pin" id="pin-highschool" href="mappin.png" x="10" y="110" width="30" height="30" />
+<text class="pin-label" x="25" y="150">High School</text>
+<text class="pin-label" x="25" y="165">(2019-2020)</text>
+<text class="pin-label" x="25" y="180">Sri Chaitanya Techno School</text>
+
+
+<!-- Second Pin -->
+<image class="map-pin" id="pin-intermediate" href="mappin.png" x="190" y="110" width="30" height="30" />
+<text class="pin-label" x="205" y="150">Intermediate</text>
+<text class="pin-label" x="205" y="165">(2020-2022)</text>
+<text class="pin-label" x="205" y="180">Narayana Junior College</text>
+
+<!-- Third Pin -->
+<image class="map-pin" id="pin-btech" href="mappin.png" x="570" y="180" width="30" height="30" />
+<text class="pin-label" x="585" y="230">B.Tech CSE (AI&ML)</text>
+<text class="pin-label" x="585" y="245">(2022-2026)</text>
+<text class="pin-label" x="580" y="260">BV Raju Institue of Technology</text>
+
+</svg>
+
+      
+    </div>
+  </div>
+
+
+   <!-- Section 3: Skills - Interactive Cards -->
+<div class="skill-cards" data-aos="fade-left">
+  <h2>Skills</h2>
+  <div class="cards-container">
+    <div class="skill-card">
+      <img src="python.png" alt="Python" class="skill-icon">
+      <div class="skill-info">
+        <h3>Python</h3>
+      </div>
+    </div>
+    <div class="skill-card">
+      <img src="c.png" alt="React" class="skill-icon">
+      <div class="skill-info">
+        <h3>C</h3>
+      </div>
+    </div>
+    <div class="skill-card">
+      <img src="java.png" alt="TensorFlow" class="skill-icon">
+      <div class="skill-info">
+        <h3>Java</h3>
+      </div>
+    </div>
+    <div class="skill-card">
+      <img src="html.png" alt="html" class="skill-icon">
+      <div class="skill-info">
+        <h3>HTML</h3>
+      </div>
+
+    </div>
+    <div class="skill-card">
+        <img src="css.png" alt="html" class="skill-icon">
+        <div class="skill-info">
+          <h3>CSS</h3>
+        </div>
+        
+      </div>
+      <div class="skill-card">
+        <img src="javascript.png" alt="html" class="skill-icon">
+        <div class="skill-info">
+          <h3>Java Script</h3>
+        </div>
+        
+      </div>
+      <div class="skill-card">
+        <img src="haskell.png" alt="html" class="skill-icon">
+        <div class="skill-info">
+          <h3>Haskell</h3>
+        </div>
+        
+      </div>
+      <div class="skill-card">
+        <img src="tensorflow.png" alt="html" class="skill-icon">
+        <div class="skill-info">
+          <h3>TensorFlow</h3>
+        </div>
+        
+      </div>
+  </div>
+</div>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    AOS.init();
+
+    function togglePopup(id) {
+      const popup = document.getElementById(id);
+      popup.style.display = popup.style.display === 'block' ? 'none' : 'block';
+    }
+
+    const swiper = new Swiper('.mySwiper', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      loop: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        640: { slidesPerView: 2 },
+        480: { slidesPerView: 1 },
+        1024: { slidesPerView: 3 }
+      }
+    });
+  </script>
+  <script>
+    const pins = document.querySelectorAll('.map-pin');
+    const popup = document.getElementById('popup');
+  
+    const infoMap = {
+      "pin-highschool": "Graduated from XYZ High School in 2016",
+      "pin-intermediate": "Completed Intermediate studies at ABC College in 2018",
+      "pin-btech": "Pursuing B.Tech in CSE at DEF University"
+    };
+  
+    pins.forEach(pin => {
+      pin.addEventListener('mouseenter', (e) => {
+        const id = e.target.id;
+        popup.innerText = infoMap[id];
+        popup.style.display = 'block';
+      });
+  
+      pin.addEventListener('mousemove', (e) => {
+        popup.style.left = e.pageX + 15 + 'px';
+        popup.style.top = e.pageY - 30 + 'px';
+      });
+  
+      pin.addEventListener('mouseleave', () => {
+        popup.style.display = 'none';
+      });
+    });
+  </script>
+  
+</body>
