@@ -9,7 +9,7 @@ body{
 }
 
 .box {
-    flex: 1;  /* Each box takes equal width */
+    flex: 1;  
     background-color: #bdadad;
     border-radius: 20px;
     padding: 30px;
